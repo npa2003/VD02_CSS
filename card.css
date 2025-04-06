@@ -22,19 +22,27 @@ img{
     width: 50%;
 }
 table{
+    width: 600px;
     height: 200px;
-    width: 300px;
     background-color: royalblue;
     border-style: solid;
     border-color: crimson;
     border-width: 2px;
-    margin: 1px;
 }
-td{
-    text-align-last: center;
+tr{
+    background-color: royalblue;
     border-style: solid;
     border-color: crimson;
     border-width: 2px;
+}
+td{
+    width: 1000px;
+    /*height: 2000px;*/
+    text-align-last: center;
+    background-color: aqua;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 10px;
+    padding: 20px;
     margin: 20px;
-    margin-outside: 20px;
 }

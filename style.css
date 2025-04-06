@@ -1,25 +1,84 @@
-body {
-    background-color: aqua;
-    color: antiquewhite;
-    }
-p {
-    background-color: rgb(0,255,0);
+:root{
+    --pad-top: 100px;
+    --pad-left: 100px;
+    --tr: 1s;
 }
 
-#test {
-    background-color: royalblue;
-    font-weight: 900;
+.left{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 50%;
+    /*position: relative;*/
+    /*position: absolute;*/
+    position: fixed;
+    top: var(--pad-top) - 50px;
+    left: var(--pad-left) - 50px;
+    transition: var(--tr);
+}
+.center{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 50%;
+    /*position: relative;*/
+    /*position: absolute;*/
+    position: fixed;
+    top: 210px;
+    left: 210px;
+    transition: var(--tr);
 }
 
-.text {
-    background-color: olivedrab;
-    font-size: 34px;
-    font-family: "Comic Sans MS";
-    font-weight: 100;
-    width: 50%;
-    height: 200px;
-    border-color: pink;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 20px;
+div{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 50%;
+    /*position: relative;*/
+    /*position: absolute;*/
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    transition: var(--tr);
 }
+/*Псевдо-классы*/
+div:hover{
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    /*top: 75px;*/
+    /*left: 75px;*/
+    transition: var(--tr);
+}
+
+/*Псевдо-элементы*/
+h1::first-letter{
+    color: deeppink;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+h1::before{
+    content: "город: " ;
+    color: deeppink;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+h1::after{
+    content: "-большой" ;
+    color: deeppink;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+a:link{color: deeppink}
+a:visited{color: olivedrab}
+a:active{color: black}
+
+
+

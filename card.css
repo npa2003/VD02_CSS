@@ -1,0 +1,40 @@
+.card{
+    width: 400px;
+    height: 650px;
+    background-color: burlywood;
+    border-radius: 60px;
+}
+
+.foto{
+    height: 50%;
+    padding: 20px;
+}
+
+.info{
+    height: 40%;
+    padding: 20px;
+}
+
+img{
+    position: relative;
+    left: 15%;
+    border-radius: 15px;
+    width: 50%;
+}
+table{
+    height: 200px;
+    width: 300px;
+    background-color: royalblue;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 2px;
+    margin: 1px;
+}
+td{
+    text-align-last: center;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 2px;
+    margin: 20px;
+    margin-outside: 20px;
+}

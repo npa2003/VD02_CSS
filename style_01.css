@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+    color: antiquewhite;
+    }
+p {
+    background-color: rgb(0,255,0);
+}
+
+#test {
+    background-color: royalblue;
+    font-weight: 900;
+}
+
+.text {
+    background-color: olivedrab;
+    font-size: 34px;
+    font-family: "Comic Sans MS";
+    font-weight: 100;
+    width: 50%;
+    height: 200px;
+    border-color: pink;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+/*div{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: deeppink;*/
+/*    border-radius: 50%;*/
+/*    position: relative;*/
+/*    top: 200px;*/
+/*    left: 200px;*/
+/*}*/
+div{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 50%;
+    /*position: relative;*/
+    /*position: absolute;*/
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
